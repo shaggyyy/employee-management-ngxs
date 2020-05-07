@@ -1,0 +1,38 @@
+<div class="register-grid">
+  <div class="register-form">
+    <form [formGroup]="registerForm" >
+        <mat-form-field class="example-full-width">
+            <mat-label>Enter your Full Name</mat-label>
+            <input matInput placeholder="email" [formControlName]="'name'">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <mat-label>Enter your email</mat-label>
+            <input matInput placeholder="email" [formControlName]="'email'">
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Select Manager</mat-label>
+          <mat-select [formControlName]="'manager_id'">
+            <mat-option value="8">Pranay</mat-option>
+            <mat-option value="3">Vaibhav</mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Select your Role</mat-label>
+            <mat-select [formControlName]="'role'">
+              <mat-option value="Developer">Developer</mat-option>
+              <mat-option value="HR">HR</mat-option>
+              <mat-option value="Manager">Manager</mat-option>
+            </mat-select>
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Select your Department</mat-label>
+            <mat-select [formControlName]="'department'">
+              <mat-option value="Development">Development</mat-option>
+              <mat-option value="HR">HR</mat-option>
+              <mat-option value="Management">Management</mat-option>
+            </mat-select>
+          </mat-form-field>
+    </form>
+    <button class="regis-btn"(click)="register()">Update Profile</button>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+<div class="login-grid">
+    <div class="login-form">
+        <form [formGroup]="loginForm">
+            <mat-form-field class="example-full-width form-field">
+                <input matInput placeholder="email" [formControlName]="'email'">
+            </mat-form-field>
+            <button (click)="login()" class="hdr-btn">Login</button>
+        </form>
+    </div>
+</div>

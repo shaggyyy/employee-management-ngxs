@@ -1,0 +1,60 @@
+table {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  th.mat-sort-header-sorted {
+    color: white;
+  }
+
+.textStyle {
+    color: white;
+    text-decoration: none;
+}
+
+.table-grid {
+ // width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  border-radius: 10px;
+}
+
+.drop-dwn {
+  width: 100%;
+  background-color: teal;
+  border-radius: 5px;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.hdr-btn {
+  border-radius: 5px;
+  border-color: cyan;
+  color: cyan;
+  width: 80px;
+  height: 30px;
+  background-color: transparent;
+  margin-left: 20%;
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+  color: teal;
+  text-decoration: teal, 10px;
+}
+
+.btn-div {
+  width: 100%;
+  text-align: center;
+}
+
+.regis-btn {
+  border-radius: 5px;
+  border-color: cyan;
+  color: cyan;
+  width: auto;
+  height: 30px;
+  background-color: teal;
+
+}
